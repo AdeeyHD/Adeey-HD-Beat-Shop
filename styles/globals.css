@@ -1,11 +1,12 @@
-.logoWrap {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
+.logo {
+  width: 160px;
+  height: auto;
+  filter: drop-shadow(0 0 18px rgba(180, 100, 255, 0.9));
+  animation: glowPulse 3s infinite ease-in-out;
 }
 
-.logo {
-  width: 140px;
-  height: auto;
-  filter: drop-shadow(0 0 12px rgba(180, 100, 255, 0.8));
+@keyframes glowPulse {
+  0% { filter: drop-shadow(0 0 12px rgba(180,100,255,0.6)); }
+  50% { filter: drop-shadow(0 0 26px rgba(180,100,255,1)); }
+  100% { filter: drop-shadow(0 0 12px rgba(180,100,255,0.6)); }
 }
