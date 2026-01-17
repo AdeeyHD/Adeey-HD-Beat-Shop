@@ -1,47 +1,11 @@
-
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0b0b0b;
-  color: white;
-}
-
-.container {
-  min-height: 100vh;
-  padding: 60px;
-  background: repeating-linear-gradient(
-    45deg,
-    #111,
-    #111 10px,
-    #0d0d0d 10px,
-    #0d0d0d 20px
-  );
-}
-
-.title {
-  font-size: 64px;
-  text-shadow: 0 0 15px purple, 2px 2px black;
-}
-
-.subtitle {
-  color: #b066ff;
-  margin-bottom: 40px;
-}
-
-.beats {
+.logoWrap {
   display: flex;
-  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
-.beat {
-  padding: 20px;
-  border-radius: 12px;
-  background: #111;
-  box-shadow: 0 0 20px rgba(128, 0, 255, 0.4);
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.beat:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 30px rgba(180, 100, 255, 0.8);
+.logo {
+  width: 140px;
+  height: auto;
+  filter: drop-shadow(0 0 12px rgba(180, 100, 255, 0.8));
 }
