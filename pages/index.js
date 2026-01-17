@@ -1,7 +1,11 @@
-
 export default function Home() {
   return (
     <main className="container">
+      {/* LOGO */}
+      <div className="logoWrap">
+        <img src="/logo.png" alt="Adeey HD Logo" className="logo" />
+      </div>
+
       <h1 className="title">ADEEY HD</h1>
       <p className="subtitle">Premium Beats Store</p>
 
